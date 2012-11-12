@@ -4,7 +4,11 @@ function sendMessage(msg){
 	var texts=form.getElementsByTagName('textarea');
 	var text=texts[texts.length-1];
 	text.value=msg;
-	$(form).submit();
+	var postData = {};
+	$(form).find(':input').each(function(){
+		postData[$(this).attr('name')] = $(this).val();
+	});
+	$.post($(form).attr('action'),postData);
 	text.value='';
 }
 var div=document.createElement("form");var text=document.createElement("input");div.appendChild(text);
