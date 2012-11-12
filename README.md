@@ -7,7 +7,7 @@ Quick Post for QLive is a Google Chrome extension that adds a quick post form to
 
 ## How to Install
 
-1. get this code by `git clone https://github.com/yasulab/fast_post_form_for_qlive.git`
+1. get this code by `git clone https://github.com/yasulab/quick_post_for_qlive.git`
 
 2. load this extension by Tools -> Extensions -> Load unpacked extension.
 
