@@ -1,6 +1,6 @@
 # Quick Post for QLive
 
-![Screen Shot](https://raw.github.com/yasulab/quick_post_form_qlive/master/images/ss.png)
+![Screen Shot](https://raw.github.com/yasulab/quick_post_for_qlive/master/images/ss.png)
 
 ## Description
 Quick Post for QLive is a Google Chrome extension that adds a quick post form to a QLive event page.
