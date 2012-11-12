@@ -6,7 +6,10 @@ function sendMessage(msg){
 	text.value=msg;
 	var postData = {};
 	$(form).find(':input').each(function(){
-		postData[$(this).attr('name')] = $(this).val();
+		var key=$(this).attr('name');
+		if(!key)return;
+		if(this.type=='checkbox'&&!this.checked)return;
+		postData[key]=$(this).val();
 	});
 	$.post($(form).attr('action'),postData);
 	text.value='';
